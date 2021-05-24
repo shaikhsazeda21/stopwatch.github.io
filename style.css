@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: darkslategray;
+}
+.display-1 {
+  color: azure;
+  text-align: center;
+  margin-top: 20px;
+}
+#div1 {
+  background-color: lightslategrey;
+  width: 400px;
+  height: 90px;
+  border-radius: 5px;
+  padding: 50px;
+  margin-top: 150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button {
+  margin-top: 80px;
+}
+span {
+  font-size: 30px;
+  position: relative;
+  bottom: 30px;
+}
+#button-start,
+#button-stop,
+#button-reset {
+  width: 100px;
+  margin-left: 15px;
+}
